@@ -1,6 +1,9 @@
 return {
   "snacks.nvim",
   opts = {
+    indent = {
+      enabled = false,
+    },
     dashboard = {
       sections = {
         { section = "header", padding = 1 },
